@@ -1,10 +1,10 @@
-import CheckboxContainer from "./map/expert/CheckboxContainer";
+import FoodContainer from "./ref/expert/FoodContainer";
 
 //컴포넌트
 function App() {
   return (
     <>
-      <CheckboxContainer />
+    <FoodContainer />
     </>
   );
 }
