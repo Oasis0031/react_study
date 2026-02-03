@@ -1,10 +1,10 @@
-import FoodContainer from "./ref/expert/FoodContainer";
+import AnimalsContainer from "./context/expert/AnimalsContainer";
 
 //컴포넌트
 function App() {
   return (
     <>
-    <FoodContainer />
+  <AnimalsContainer/>
     </>
   );
 }
