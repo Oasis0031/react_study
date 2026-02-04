@@ -1,10 +1,15 @@
-import AnimalsContainer from "./context/expert/AnimalsContainer";
+import { Route, RouterProvider, Routes } from "react-router-dom";
+import router from "./router/router";
+import { RouteProvider } from "./context/expert/RouteContext";
 
 //컴포넌트
 function App() {
+  // 라우터 제공자 선언
   return (
     <>
-  <AnimalsContainer/>
+      <RouteProvider>
+        <RouterProvider router={router} />
+      </RouteProvider>
     </>
   );
 }
